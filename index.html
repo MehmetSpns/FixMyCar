@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FixMyCar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="media/icoon.png" />
+
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <span>Onderhoud je auto zelf. Bespaar honderden euro’s.</span>
+    </div>
+    <div class="nav">
+      <div class="logo">FixMyCar</div>
+      <nav>
+        <a href="#over">Over</a>
+        <a href="#visie">Visie</a>
+        <a href="#producten">Producten</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1><span class="highlight">Onderhoud</span> je eigen wagen</h1>
+      <p>Leer zelf je auto onderhouden met duidelijke Nederlandstalige video’s, speciaal voor Belgische voertuigen.</p>
+      <a href="#producten" class="cta-btn">Bekijk onze video's</a>
+    </div>
+    <div class="hero-image">
+      <img src="media/gereedschapman.png" alt="Auto onderhoud" />
+    </div>
+  </section>
+
+  <section class="info-section" id="over">
+    <h2>Wat doen wij?</h2>
+    <p>FixMyCar biedt stapsgewijze videohandleidingen aan waarmee Belgische autobezitters zelf hun wagen leren onderhouden. Geen dure garagerekeningen meer, wél kennis en zekerheid.</p>
+  </section>
+
+  <section class="info-section" id="visie">
+    <h2>Onze visie</h2>
+    <p>Wij willen autotechniek toegankelijk maken voor iedereen. Geen vaag jargon of halve uitleg, maar duidelijke begeleiding voor wie het zelf wil doen.</p>
+  </section>
+
+  <section class="info-section" id="producten">
+    <h2>Onze producten</h2>
+    <ul>
+      <li>📹 Gratis video's voor eenvoudige onderhoudstaken</li>
+      <li>🔒 Premium content voor geavanceerde reparaties</li>
+      <li>📄 Downloadbare PDF-checklists</li>
+    </ul>
+    <div class="video">
+      <video controls>
+        <source src="media/teaser.mp4" type="video/mp4" />
+        Je browser ondersteunt deze video niet.
+      </video>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <h2>Contacteer ons</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Naam" required />
+      <input type="email" placeholder="E-mail" required />
+      <textarea placeholder="Bericht" rows="4" required></textarea>
+      <button type="submit">Verzend</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>info@fixmycar.be | +32 456 78 90 12</p>
+    <div class="socials">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://youtube.com" target="_blank">YouTube</a>
+    </div>
+    <p>&copy; 2025 FixMyCar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

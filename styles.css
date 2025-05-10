@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.top-bar {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.nav .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.nav nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav nav a:hover {
+  color: orange;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: orange;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  padding: 1rem 2rem;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.info-section h2 {
+  font-size: 2rem;
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+.info-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.info-section ul li {
+  margin-bottom: 0.8rem;
+}
+
+.video {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact-section {
+  background-color: #f2f2f2;
+  padding: 3rem 2rem;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.contact-section h2 {
+  margin-bottom: 1rem;
+  color: orange;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+}
+
+footer .socials a {
+  color: orange;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
