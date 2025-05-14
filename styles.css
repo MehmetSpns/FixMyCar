@@ -1,3 +1,8 @@
+/* Smooth scrolling for in-page anchors */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +43,7 @@ body {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
 .nav nav a:hover {
@@ -73,12 +78,18 @@ body {
 }
 
 .cta-btn {
+  display: inline-block;
   padding: 1rem 2rem;
-  background: black;
+  background: orange;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #e69500;
 }
 
 .hero-image {
@@ -118,8 +129,9 @@ body {
   margin-top: 2rem;
   text-align: center;
 }
-#video{
-  max-width: 600px;
+
+#video {
+  max-width: 850px;
 }
 
 .contact-section {
@@ -154,6 +166,11 @@ form button {
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #e69500;
 }
 
 footer {
@@ -164,9 +181,36 @@ footer {
   margin-top: 4rem;
 }
 
+footer .socials {
+  margin: 1rem 0;
+}
+
 footer .socials a {
   color: orange;
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
+}
+
+.footer-link {
+  color: orange;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav nav {
+    margin-top: 1rem;
+  }
+  .hero {
+    padding: 2rem 1rem;
+  }
 }
